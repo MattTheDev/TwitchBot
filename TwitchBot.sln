@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBot.Bot", "TwitchBot.Bot\TwitchBot.Bot.csproj", "{3A1F7ECE-0A6E-49AA-8F65-D2DDCA476ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBot.Services", "TwitchBot.Services\TwitchBot.Services.csproj", "{D32A54BB-D377-47D1-806E-FC0AF568D3BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBot.Contracts", "TwitchBot.Contracts\TwitchBot.Contracts.csproj", "{DD55CBC6-4228-46D4-8E98-3703CCACE93B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBot.Accessors", "TwitchBot.Accessors\TwitchBot.Accessors.csproj", "{EB6010E8-A201-4DFA-AFA3-B0909D49E53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBot.Domain", "TwitchBot.Domain\TwitchBot.Domain.csproj", "{89DA0801-7998-4304-9537-751C509C7D9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A1F7ECE-0A6E-49AA-8F65-D2DDCA476ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1F7ECE-0A6E-49AA-8F65-D2DDCA476ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1F7ECE-0A6E-49AA-8F65-D2DDCA476ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1F7ECE-0A6E-49AA-8F65-D2DDCA476ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32A54BB-D377-47D1-806E-FC0AF568D3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32A54BB-D377-47D1-806E-FC0AF568D3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32A54BB-D377-47D1-806E-FC0AF568D3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32A54BB-D377-47D1-806E-FC0AF568D3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD55CBC6-4228-46D4-8E98-3703CCACE93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD55CBC6-4228-46D4-8E98-3703CCACE93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD55CBC6-4228-46D4-8E98-3703CCACE93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD55CBC6-4228-46D4-8E98-3703CCACE93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6010E8-A201-4DFA-AFA3-B0909D49E53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6010E8-A201-4DFA-AFA3-B0909D49E53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6010E8-A201-4DFA-AFA3-B0909D49E53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6010E8-A201-4DFA-AFA3-B0909D49E53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DA0801-7998-4304-9537-751C509C7D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DA0801-7998-4304-9537-751C509C7D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DA0801-7998-4304-9537-751C509C7D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DA0801-7998-4304-9537-751C509C7D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B69EDD9-DF62-4419-A732-0A93866E3D44}
+	EndGlobalSection
+EndGlobal

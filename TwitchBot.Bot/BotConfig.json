@@ -1,0 +1,14 @@
+{
+  "Tokens": {
+    "Discord": "DiscordTokenHere",
+    "Twitch": "TwitchClientIdHere"
+  },
+  "DiscordChannels": {
+    "Announcements": 0
+  },
+  "TwitchChannelName": "ChannelNameHere",
+  "Prefix": "&",
+  "ConnectionStrings": {
+    "BasicBotLogging": "PATH_TO_YOUR_LOGGING_DATABASE"
+  }
+}
