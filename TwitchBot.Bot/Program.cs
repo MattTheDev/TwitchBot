@@ -1,4 +1,5 @@
-﻿using Discord.Commands;
+﻿using Discord;
+using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,6 +36,22 @@ namespace TwitchBot.Bot
                 Console.WriteLine("Checking if service is started / completely logged in.");
                 await Task.Delay(5000);
             }
+
+            var channelId = ulong.Parse(_config["DiscordChannels:Announcements"]);
+
+            if(channelId == 0)
+            {
+                throw new ArgumentNullException("Announcement Channel not set in BotConfig.json.");
+            }
+
+            var announcementsChannel = _discord.GetChannel(channelId) as IMessageChannel;
+
+            if (announcementsChannel == null)
+            {
+                throw new ArgumentNullException("Configured Announcement Channel not found.");
+            }
+
+            await announcementsChannel.SendMessageAsync("TwitchBot - a Friend of CouchBot (<https://couch.bot>) - is now online.");
 
             serviceProvider.GetRequiredService<CommandService>();
             serviceProvider.GetRequiredService<CommandHandlerService>();
